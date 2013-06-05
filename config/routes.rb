@@ -1,4 +1,6 @@
 TrackerServer::Application.routes.draw do
+  get "trackers/create"
+
   devise_for :admin_users, ActiveAdmin::Devise.config
 
   # The priority is based upon order of creation:
@@ -51,6 +53,7 @@ TrackerServer::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => 'welcome#index'
+  resources :gps_tracker
   ActiveAdmin.routes(self)
   # See how all your routes lay out with "rake routes"
 

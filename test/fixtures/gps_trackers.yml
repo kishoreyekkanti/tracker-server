@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  imei: MyString
+  latitude: 9.99
+  longitude: 9.99
+
+two:
+  imei: MyString
+  latitude: 9.99
+  longitude: 9.99

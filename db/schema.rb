@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130605070512) do
+ActiveRecord::Schema.define(:version => 20130605183742) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -46,27 +46,21 @@ ActiveRecord::Schema.define(:version => 20130605070512) do
   add_index "admin_users", ["email"], :name => "index_admin_users_on_email", :unique => true
   add_index "admin_users", ["reset_password_token"], :name => "index_admin_users_on_reset_password_token", :unique => true
 
-  create_table "mobile_phones", :force => true do |t|
-    t.string   "number"
+  create_table "gps_trackers", :force => true do |t|
     t.string   "imei"
+    t.decimal  "latitude"
+    t.decimal  "longitude"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
 
   create_table "trackers", :force => true do |t|
-    t.decimal  "latitude"
-    t.decimal  "longitude"
-    t.integer  "mobile_phone_id"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
-  end
-
-  create_table "trucks", :force => true do |t|
-    t.string   "registration_number"
     t.string   "driver_name"
-    t.integer  "mobile_phone_id"
-    t.datetime "created_at",          :null => false
-    t.datetime "updated_at",          :null => false
+    t.string   "mobile_number"
+    t.string   "imei"
+    t.string   "truck_registration_number"
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
   end
 
 end

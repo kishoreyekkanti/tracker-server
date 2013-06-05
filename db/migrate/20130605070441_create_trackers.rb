@@ -1,9 +1,10 @@
 class CreateTrackers < ActiveRecord::Migration
   def change
     create_table :trackers do |t|
-      t.decimal :latitude
-      t.decimal :longitude
-      t.integer :mobile_phone_id
+      t.string :driver_name
+      t.string :mobile_number
+      t.string :imei
+      t.string :truck_registration_number
       t.timestamps
     end
   end
