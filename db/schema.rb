@@ -56,13 +56,15 @@ ActiveRecord::Schema.define(:version => 20130605070512) do
   create_table "trackers", :force => true do |t|
     t.decimal  "latitude"
     t.decimal  "longitude"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.integer  "mobile_phone_id"
+    t.datetime "created_at",      :null => false
+    t.datetime "updated_at",      :null => false
   end
 
   create_table "trucks", :force => true do |t|
     t.string   "registration_number"
     t.string   "driver_name"
+    t.integer  "mobile_phone_id"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
   end
