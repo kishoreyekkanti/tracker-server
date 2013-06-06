@@ -19,18 +19,18 @@ var Map = {
 
         $.getJSON(tracker_index_url, function (result) {
             $.each(result, function (i, item) {
-                console.log(item)
-                if(item.tracks.length > 0)
-                    Map.mark_it(item.tracks[0].latitude, item.tracks[0].longitude, item.driver_name, item.mobile_number, item.tracks[0].updated_at)
+                track_length = item.tracks.length;
+                if(track_length > 0)
+                    Map.mark_it(item.tracks[track_length - 1].latitude, item.tracks[track_length - 1].longitude, item.driver_name, item.mobile_number, item.tracks[track_length - 1].updated_at)
             });
         });
     },
 
     mark_it: function (lat, lng, driver_name, mobile_number, last_located_at) {
         var marker = new L.Marker(new L.LatLng(lat, lng), { title: "Tracker", singleMarkerMode: false });
-        var popupContent = "<p>Driver Name : "+driver_name+" </p>" + "<p>Mobile Number : "+mobile_number+" </p>" + "<p>Last Located Time : "+last_located_at+"</p>"
+        var popupContent = "<p>Driver Name : "+driver_name+" </p>" + "<p>Mobile Number : "+mobile_number+" </p>" + "<p>Last Located Time : "+last_located_at+"</p>";
         console.log(popupContent);
-        this.markers.bindPopup(popupContent);
+        marker.bindPopup(popupContent);
         this.markers.addLayer(marker);
     }
 }
