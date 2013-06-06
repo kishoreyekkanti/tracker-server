@@ -54,6 +54,7 @@ TrackerServer::Application.routes.draw do
   # just remember to delete public/index.html.
   root :to => 'welcome#index'
   resources :gps_tracker
+  resources :tracker
   ActiveAdmin.routes(self)
   # See how all your routes lay out with "rake routes"
 
