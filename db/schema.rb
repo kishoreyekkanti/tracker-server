@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(:version => 20130605183742) do
     t.string   "imei"
     t.decimal  "latitude"
     t.decimal  "longitude"
+    t.integer  "tracker_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end

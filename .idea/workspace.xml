@@ -5,45 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e365123b-dad8-46a3-a840-6a622c5e4b51" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/leaflet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/leaflet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/leaflet.markercluster.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/mobile_phones.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/admin/trucks.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/mobile_phone.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/truck.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130605070149_create_trucks.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130605070244_create_mobile_phones.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130605072310_add_devise_to_admin_users.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/active_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/active_admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/MarkerCluster.Default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/MarkerCluster.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery-jvectormap-in-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.vmap.india.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.vmap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.vmap.world.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jqvmap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20130605183742_create_gps_trackers.rb" afterPath="$PROJECT_DIR$/db/migrate/20130605183742_create_gps_trackers.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/gps_tracker.rb" afterPath="$PROJECT_DIR$/app/models/gps_tracker.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tracker-server.iml" afterPath="$PROJECT_DIR$/.idea/tracker-server.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/tracker.rb" afterPath="$PROJECT_DIR$/app/models/tracker.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/trackers.rb" afterPath="$PROJECT_DIR$/app/admin/trackers.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tracker-server.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/truck.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370453787224" ignored="false" />
-    <file path="/tracker.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370454852932" ignored="false" />
+    <file path="/tracker.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370484263163" ignored="false" />
     <file path="$PROJECT_DIR$/../plan_com_india/Gemfile" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370416742492" ignored="false" />
     <file path="/Gemfile" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370416752681" ignored="false" />
     <file path="/20130605070149_create_trucks.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370418015602" ignored="false" />
-    <file path="/20130605070441_create_trackers.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370454937255" ignored="false" />
+    <file path="/20130605070441_create_trackers.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370484352615" ignored="false" />
     <file path="/mobile_phone.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370454430459" ignored="false" />
     <file path="/20130605070244_create_mobile_phones.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370454403323" ignored="false" />
     <file path="/trackers.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370455546910" ignored="false" />
     <file path="/mobile_phones.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370431177998" ignored="false" />
-    <file path="/*.regexp" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370456729930" ignored="false" />
+    <file path="/*.regexp" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370484074698" ignored="false" />
     <file path="/20130605072310_add_devise_to_admin_users.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370440981568" ignored="false" />
     <file path="/trucks.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370454616737" ignored="false" />
-    <file path="/Dummy.txt" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370453720266" ignored="false" />
+    <file path="/Dummy.txt" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370481969416" ignored="false" />
     <file path="/active_admin.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370455303759" ignored="false" />
     <file path="$PROJECT_DIR$/../plan_com_india/app/views/home/map.html.erb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370456418506" ignored="false" />
     <file path="/routes.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370457709280" ignored="false" />
     <file path="/trackers_controller.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370458142137" ignored="false" />
-    <file path="/gps_tracker_controller.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370458131729" ignored="false" />
+    <file path="/gps_tracker_controller.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370485326330" ignored="false" />
+    <file path="/gps_tracker.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370484272314" ignored="false" />
+    <file path="/20130605183742_create_gps_trackers.rb" changelist="e365123b-dad8-46a3-a840-6a622c5e4b51" time="1370484412053" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gps_tracker_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb">
+      <file leaf-file-name="gps_tracker.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/gps_tracker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="42" selection-start="258" selection-end="258" vertical-scroll-proportion="0.20408164">
+            <state line="2" column="21" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gps_tracker.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/gps_tracker.rb">
+      <file leaf-file-name="tracker.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/tracker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+            <state line="2" column="22" selection-start="139" selection-end="139" vertical-scroll-proportion="0.040816326">
               <folding />
             </state>
           </provider>
@@ -84,16 +88,25 @@
       <file leaf-file-name="20130605183742_create_gps_trackers.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20130605183742_create_gps_trackers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="27" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="20130605070441_create_trackers.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="24" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0">
+            <state line="7" column="21" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gps_tracker_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="21" selection-start="98" selection-end="105" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20130605070149_create_trucks.rb" />
         <option value="$PROJECT_DIR$/app/admin/mobile_phones.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130605072310_add_devise_to_admin_users.rb" />
@@ -130,11 +142,13 @@
         <option value="$PROJECT_DIR$/app/models/mobile_phone.rb" />
         <option value="$PROJECT_DIR$/app/admin/trucks.rb" />
         <option value="$PROJECT_DIR$/config/initializers/active_admin.rb" />
-        <option value="$PROJECT_DIR$/app/models/tracker.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb" />
         <option value="$PROJECT_DIR$/app/admin/trackers.rb" />
         <option value="$PROJECT_DIR$/app/controllers/trackers_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/models/tracker.rb" />
+        <option value="$PROJECT_DIR$/app/models/gps_tracker.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130605183742_create_gps_trackers.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb" />
         <option value="$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb" />
       </list>
     </option>
@@ -171,6 +185,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,45 +332,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracker-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tracker-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/projects" />
+    <property name="FullScreen" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: tracker-server">
@@ -624,24 +621,24 @@
     <frame x="10" y="22" width="1420" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496361" sideWeight="0.6710354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.6710354" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -705,46 +702,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/admin_user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/development.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1507" column="142" selection-start="111065" selection-end="111065" vertical-scroll-proportion="0.36518046">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130605070511_create_admin_notes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130605070508_devise_create_admin_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130605070512_move_admin_notes_to_comments.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="22" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="22" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb">
@@ -756,63 +726,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/leaflet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/leaflet.markercluster.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/trackers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="32" selection-end="431" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="24" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.71428573">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/tracker.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.vmap.india.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="81" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/trackers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="32" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130605183742_create_gps_trackers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="6" column="27" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130605070441_create_trackers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="24" selection-start="1603" selection-end="1603" vertical-scroll-proportion="0.0">
+        <state line="7" column="21" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/gps_tracker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+        <state line="2" column="21" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/gps_tracker_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="258" selection-end="258" vertical-scroll-proportion="0.20408164">
+        <state line="4" column="21" selection-start="98" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/tracker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="139" selection-end="139" vertical-scroll-proportion="0.040816326">
           <folding />
         </state>
       </provider>

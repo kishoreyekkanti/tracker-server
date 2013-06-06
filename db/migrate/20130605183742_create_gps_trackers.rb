@@ -4,7 +4,7 @@ class CreateGpsTrackers < ActiveRecord::Migration
       t.string :imei
       t.decimal :latitude
       t.decimal :longitude
-
+      t.integer :tracker_id
       t.timestamps
     end
   end
