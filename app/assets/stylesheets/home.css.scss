@@ -1,0 +1,39 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.home {
+	margin-top: 40px;
+	position: relative;
+}
+
+#map label { width: auto; display:inline; }
+#map img { max-width: none; }
+#map {
+	height: 700px;
+}
+
+#slider {
+	position: fixed;
+	left: 10px;
+	top: 30%;
+	z-index: 999;
+}
+
+#center {
+	position: fixed;
+	left: 42%;
+    z-index: 999;
+}
+
+
+.result {
+ 	a {
+		text-decoration: none;
+		cursor: normal; 	
+	}
+	margin-top: 10px;
+}
+
+.about {
+	margin-top: 10px;
+}

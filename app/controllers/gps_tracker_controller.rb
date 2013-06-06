@@ -10,7 +10,6 @@ class GpsTrackerController < ApplicationController
   end
 
   def index
-
     render :json => GpsTracker.all.to_json
   end
 end
