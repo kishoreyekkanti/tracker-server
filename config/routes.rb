@@ -53,6 +53,7 @@ TrackerServer::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   root :to => 'home#map'
+  match 'home/route/:id' => 'home#route'
   resources :gps_tracker
   resources :tracker
   ActiveAdmin.routes(self)

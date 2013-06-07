@@ -12,4 +12,9 @@ class GpsTrackerController < ApplicationController
   def index
     render :json => GpsTracker.all.to_json
   end
+  
+  def show
+    gps_trackers = GpsTracker.order(:created_at).where(:imei => params[:id])
+    render :json => gps_trackers.to_json(:only => [:latitude, :longitude])
+  end
 end
