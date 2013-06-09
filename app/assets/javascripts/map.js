@@ -4,7 +4,7 @@ if($('#index').length > 0){
 	    tracker_details: function () {
 	        this.map = new L.Map('map');
 	        this.markers = new L.MarkerClusterGroup();
-
+			L.Icon.Default.imagePath = '/assets/images'	
 	        var hull = new L.LatLng(13.8, 77);
 	        var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 	        var osmAttrib = 'Map data © openstreetmap contributors';
@@ -38,6 +38,7 @@ if($('#index').length > 0){
 	    route_details: function () {
 	        this.map = new L.Map('map');
 	        this.markers = new L.MarkerClusterGroup();
+			L.Icon.Default.imagePath = '/assets/images'	
 
 	        var hull = new L.LatLng(12.9, 80.2);
 	        var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
