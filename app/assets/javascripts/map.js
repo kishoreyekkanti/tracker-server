@@ -43,7 +43,7 @@ $(function () {
                         console.log(item)
                         coordinates.push(new L.LatLng(item['latitude'], item['longitude']));
                     });
-                    _this.map.setView(coordinates[0], 15);
+                    _this.map.setView(coordinates[0], 10);
                     var polyLine = L.polyline(coordinates, {color: 'red'}).addTo(_this.map);
                 });
             }
