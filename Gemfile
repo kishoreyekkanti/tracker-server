@@ -22,9 +22,14 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'twitter-bootstrap-rails'
 end
 
-gem 'jquery-rails', "2.3.0"
+gem "therubyracer"
+gem "less-rails"
+gem "jquery-rails"
+gem "simple_form"
+gem 'bootstrap-datetimepicker-rails'
 
 group :development do
   gem 'sqlite3'

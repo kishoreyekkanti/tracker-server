@@ -56,6 +56,7 @@ TrackerServer::Application.routes.draw do
   match 'home/route/:id' => 'home#route'
   resources :gps_tracker
   resources :tracker
+  get 'home/search' => 'home#search'
   ActiveAdmin.routes(self)
   # See how all your routes lay out with "rake routes"
 

@@ -1,4 +1,7 @@
 $(function () {
+    $('#start_date_time').datetimepicker();
+    $('#end_date_time').datetimepicker();
+
     this.map = new L.Map('map');
     this.markers = new L.MarkerClusterGroup();
     L.Icon.Default.imagePath = '/assets/images'

@@ -1,8 +1,31 @@
-<div id="index">
-<div id="map">
+<p/>
+
+<div id="search">
+  <%= simple_form_for :search, {url: home_search_path, :html => {:class => 'form-vertical',  method: "get"}}  do |f| %>
+      <div id="start_date_time" class="input-append date">
+        <input data-format="dd/MM/yyyy hh:mm:ss" type="text" name="search[start_date_time]" placeholder="Start Date Time"/>
+         <span class="add-on">
+           <i data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar">
+           </i>
+         </span>
+      </div>
+      <div id="end_date_time" class="input-append date">
+        <input data-format="dd/MM/yyyy hh:mm:ss" type="text" name="search[end_date_time]" placeholder="End Date time"/>
+         <span class="add-on">
+           <i data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar">
+           </i>
+         </span>
+      </div>
+      <%= f.input :vehicle_number, collection: @vehicle_numbers, prompt: "Select A Vehicle",
+                  wrapper_html: {style: 'display:inline-block'}, label_html: {style: 'display:none'}%>
+      <%= f.submit "Search", :class => 'btn btn-primary', :style => 'display:inline-block'%>
+  <% end %>
 </div>
+<div id="index">
+  <div id="map">
+  </div>
 </div>
 
 <script type="text/javascript">
-    var tracker_index_url = "<%= tracker_index_url %>"+".json";
+    var tracker_index_url = "<%= tracker_index_url %>" + ".json";
 </script>
