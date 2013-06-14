@@ -17,13 +17,16 @@ $(function () {
         var _this = this;
         var Map = {
             tracker_details: function () {
-                $.getJSON(tracker_index_url, function (result) {
-                    $.each(result, function (i, item) {
-                        track_length = item.tracks.length;
-                        if (track_length > 0)
-                            Map.mark_it(item.tracks[track_length - 1].latitude, item.tracks[track_length - 1].longitude, item.driver_name, item.mobile_number, item.tracks[track_length - 1].updated_at, item.imei)
-                    });
+//                $.getJSON(tracker_index_url, function (result) {
+//                    $.each(result, function (i, item) {
+                $.each(tracks_json, function (i, item) {
+                    track_length = item.gps_trackers.length;
+                    if (track_length > 0)
+                        Map.mark_it(item.gps_trackers[0].latitude, item.gps_trackers[0].longitude, item.driver_name, item.mobile_number, item.gps_trackers[0].updated_at, item.imei)
+
                 });
+//                    });
+//                });
             },
 
             mark_it: function (lat, lng, driver_name, mobile_number, last_located_at, imei) {

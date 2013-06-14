@@ -1,7 +1,5 @@
 class GpsTrackerController < ApplicationController
   respond_to :json
-  
-  
 
   def create
     tracker = Tracker.find_or_create_by_imei params[:imei]
