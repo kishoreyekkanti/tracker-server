@@ -17,4 +17,9 @@ class GpsTrackerController < ApplicationController
     gps_trackers = GpsTracker.order(:created_at).where(:imei => params[:id])
     render :json => gps_trackers.to_json(:only => [:latitude, :longitude])
   end
+
+  def search
+    @start_date_time = params["search"]["start_date_time"]
+    @end_date_time = params["search"]["end_date_time"]
+  end
 end

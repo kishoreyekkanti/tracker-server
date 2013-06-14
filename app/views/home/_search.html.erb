@@ -1,0 +1,22 @@
+<div id="search">
+  <%= simple_form_for :search, {url: url_path, :html => {:class => 'form-vertical',  method: "get"}}  do |f| %>
+      <div id="start_date_time" class="input-append date">
+        <input data-format="dd/MM/yyyy hh:mm:ss" type="text" name="search[start_date_time]" placeholder="Start Date Time" value="<%= @start_date_time%>"/>
+         <span class="add-on">
+           <i data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar">
+           </i>
+         </span>
+      </div>
+      <div id="end_date_time" class="input-append date">
+        <input data-format="dd/MM/yyyy hh:mm:ss" type="text" name="search[end_date_time]" placeholder="End Date time" value="<%= @end_date_time%>"/>
+         <span class="add-on">
+           <i data-time-icon="icon-time" data-date-icon="icon-calendar" class="icon-calendar">
+           </i>
+         </span>
+      </div>
+      <div class="input-append">
+        <%= f.submit "Search", :class => 'btn btn-primary', :style => 'display:inline-block'%>
+      </div>
+
+  <% end %>
+</div>
